@@ -1,9 +1,9 @@
-USE sovisy
+
 --PRACTICE-1
 --Write a SQL statement to create a table named countries including columns CountryId, CountryName and RegionId and make sure that no countries except Italy,
 --India and China will be entered in the table. and combination of columns CountryId and RegionId will be unique.
-
 CREATE DATABASE DAY1
+USE DAY1
 
 CREATE TABLE COUNTRIES(
 COUNTRY_ID	VARCHAR(10)  UNIQUE,
@@ -20,7 +20,7 @@ INSERT INTO COUNTRIES VALUES
 
 --PRACTICE-2
 --Write a SQL statement to create a table named JobHistory including columns EmployeeId, StartDate, End_Eate, Job_Id and Department_Id 
---and make sure that the value against column EndDate will be entered at the time of insertion to the format like â€˜â€“/â€“/â€”-â€˜.
+--and make sure that the value against column EndDate will be entered at the time of insertion to the format like ‘–/–/—-‘.
 
 CREATE TABLE JOBHISTORY(
 EMPLOYEE_ID VARCHAR(10),

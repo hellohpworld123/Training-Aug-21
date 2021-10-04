@@ -1,4 +1,4 @@
-/*
+
 console.log(a*b)
 // alert("hello hp");
 console.log("Hello hp-->",5*4,"<--multiplication")
@@ -85,40 +85,40 @@ else{
     console.log("You are kid...");
 }
 
-*/
 
 
-//For loop
 
-// var array = [1,2,3,4,5,6,7,8];
-// // console.log(array);
-// for (let i = 0; i < array.length; i++) {
-//     // const element = array[i];
-//     // console.log(element);
-//     console.log(array[i]);
-// }
-// for(var i=0; i<array.length;i++){
-//     console.log(array[i]);
-// }
+// For loop
 
-//For Each
-// array.forEach(function(element){
-// console.log(element);    
-// });
+var array = [1,2,3,4,5,6,7,8];
+// console.log(array);
+for (let i = 0; i < array.length; i++) {
+    // const element = array[i];
+    // console.log(element);
+    console.log(array[i]);
+}
+for(var i=0; i<array.length;i++){
+    console.log(array[i]);
+}
+
+// For Each
+array.forEach(function(element){
+console.log(element);    
+});
 
 
-//const is used for to provide fixed value which we can't change it
-// const a=0;
-// a++;
+// const is used for to provide fixed value which we can't change it
+const a=0;
+a++;
 
-//while loop
-// let j = 0;
-// while (j<array.length) {
-// console.log(array[j]);
-// j++;
-// }
+// while loop
+let j = 0;
+while (j<array.length) {
+console.log(array[j]);
+j++;
+}
 
-// //do while
-// do {
-//     console.log(array[j]);
-// } while (j<array.length);
+//do while
+do {
+    console.log(array[j]);
+} while (j<array.length);
